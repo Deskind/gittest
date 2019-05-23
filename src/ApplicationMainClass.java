@@ -11,4 +11,9 @@ public class ApplicationMainClass {
     private static void printMyAge(){
         System.out.println("My age is 31 !!!");
     }
+
+    private static void methodForPrintingNameAndAge(){
+        printMyName();
+        printMyAge();
+    }
 }
